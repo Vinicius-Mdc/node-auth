@@ -2,7 +2,7 @@ import { SessionOptions } from "express-session";
 import SMTPTransport from "nodemailer/lib/smtp-transport";
 
 export const {
-  NODE_ENV = "development",
+  NODE_ENV = "production",
 
   APP_PORT = 3000,
   APP_HOSTNAME = "localhost",
